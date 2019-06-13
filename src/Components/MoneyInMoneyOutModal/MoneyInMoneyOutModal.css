@@ -1,0 +1,21 @@
+.btn:focus {
+    outline: none !important;
+    outline-offset: none !important;
+}
+
+.dropdownbutton .btn{
+    border-radius: 0;
+    background-color: #662d94;
+    border:0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.dropdownbutton .btn:focus{
+    background-color: #662d94;
+}
+
+.dropdownbutton .btn:active{
+    background-color: #662d94;
+}

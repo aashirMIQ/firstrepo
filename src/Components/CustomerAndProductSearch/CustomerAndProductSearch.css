@@ -1,0 +1,7 @@
+.hover-style:hover {
+  opacity: 0.5;
+  /* outline: 2px solid;
+  outline-color: #27aae1; */
+  outline: #27aae1 solid 2px;
+  /* transition: all 0.3s; */
+}

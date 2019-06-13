@@ -1,0 +1,42 @@
+.udharBtnText{
+    padding-left: 12px;
+}
+.pooraUdharBtn{
+    padding-left: 12px;
+}
+.udharBtnTextmain{
+    width: 21em;
+    margin: 1em 0px;
+    border: none;
+    height: 4em;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    background: #96dc37;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.udharBtnTextmain:hover{
+    background: #8dc63f;
+}
+.pooraudharBtnTextmain{
+    width: 21em;
+    margin: 1em 0px;
+    border: none;
+    height: 4em;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    background: #EAA536;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.pooraudharBtnTextmain:hover{
+    background: #FFAC33;
+}

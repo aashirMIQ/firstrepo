@@ -1,0 +1,84 @@
+.titles {
+  display: grid;
+  grid-template-columns: 0.5fr 2.5fr repeat(5, 1fr) 0.5fr;
+  justify-items: center;
+  align-content: center;
+  height: 10vh;
+  border-bottom: 2px solid #dfdfdf;
+}           
+
+.inventory-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  height: 9vh;
+  /* border-bottom: 2px solid #dedede; */
+}
+
+.inventory-input:focus {
+  border-bottom: 2px solid purple;
+}
+.product-list-item {
+  background: white;
+  cursor: pointer;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  color: purple;
+  padding-left: 1em;
+  font-size: 15px;
+}
+
+.main-title {
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  height: 10vh;
+  align-content: center;
+}
+
+.main-title div:nth-child(1) {
+  text-align: center;
+  padding-left: 20vw;
+  font-weight: bold;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title div:nth-child(2) {
+  text-align: center;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title div:nth-child(2) button{
+  height: 3em;
+    width: 10em;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    background: #d7df23;
+}
+
+.add-item{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+  color: #27aae1;
+  outline: none;
+  /* text-decoration: underline */
+}
+.add-item:focus{
+  outline: none;
+}
+.add-item:hover{
+  text-decoration: underline;
+}

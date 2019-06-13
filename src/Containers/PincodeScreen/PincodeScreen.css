@@ -1,0 +1,22 @@
+.pinscreenButton{
+
+}
+.pinscreenButton:hover, .pinscreenButton:focus{
+    outline : none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.pinscreenButton button{
+    border: none;
+}
+.pinscreenButton button:hover{
+    background: rgba(252, 150, 150, 0.7) !important;
+    outline : none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.pinscreenButton button:focus{
+    outline : none !important;
+    border: none !important;
+    box-shadow: none !important;
+}

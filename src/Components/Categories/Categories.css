@@ -1,0 +1,14 @@
+.category-item:hover {
+  transition: all 5ms !important;
+  border-color: #662d94 !important;
+}
+
+.category-item:active {
+  background: #dfe4e5 !important;
+  border-color: #dfe4e5 !important;
+}
+
+.back-btn:hover {
+  background: rgba(0, 0, 0, 0.1) !important;
+  cursor: pointer;
+}

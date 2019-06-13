@@ -1,0 +1,15 @@
+.removecustomerBtn{
+    background: #e51a32;
+}
+.removecustomerBtn:hover{
+    background: #F41938;
+}
+.customerUpdateInput{
+
+}
+.customerUpdateInput label {
+    color: #000 !important;
+}
+.customerUpdateInput div input{
+    color: #000;
+}

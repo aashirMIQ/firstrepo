@@ -1,0 +1,11 @@
+.itemDetailsTable {
+    width: 33%;
+}
+.itemDetailsTableheader{
+    font-size: 14px;
+    padding: 10px;
+}
+.itemDetailsTableRow{
+    font-size: 16px;
+    padding: 10px;
+}

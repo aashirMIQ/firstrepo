@@ -1,0 +1,113 @@
+.itemTableHeader {
+    /* width: 98.5%; */
+    background: #f8f8f8;
+}
+.itemTableHeader div {
+    font-size: 18px;
+    padding: 0.6rem;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    background: #f8f8f8;
+    align-items: center;
+}
+.itemTableHeader div:nth-child(1){
+    text-align: center;
+    justify-content: center;
+}
+.itemTableHeader div:nth-child(3){
+    text-align: center;
+    justify-content: center;
+}
+.itemTableHeader div:nth-child(4){
+    text-align: center;
+    justify-content: center;
+}
+.itemTableHeader div:nth-child(5){
+    text-align: center;
+    justify-content: center;
+}
+.itemTableHeader div:nth-child(6) {
+    position: relative !important;
+    left: -20px;
+}
+.itemTableHeader{
+    
+}
+.itemTablebody{
+
+}
+.itemnameInnertext{
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 95%;
+    white-space: normal;
+    height: 24px;
+}
+.itemTablebody div {
+    /* font-size: 16px;
+    padding: 0.6rem;
+    height: 10vh;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+/* .itemTablebody div:nth-child(1){
+    text-align: left;
+    justify-content: center;
+}
+.itemTablebody div:nth-child(3){
+    text-align: center;
+    justify-content: center;
+}
+.itemTablebody div:nth-child(4){
+    text-align: center;
+    justify-content: center;
+}
+.itemTablebody div:nth-child(5){
+    text-align: center;
+    justify-content: center;
+} */
+.itemnameColumn{
+    font-size: 16px;
+    /* padding: 0.6rem; */
+    /* height: 10vh; */
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.catergoryColumn{
+    font-size: 16px;
+    /* padding: 0.6rem; */
+    /* height: 10vh; */
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.barcodeColumn{
+    font-size: 16px;
+    /* padding: 0.6rem; */
+    /* height: 10vh; */
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.qtyColumn{
+    font-size: 16px;
+    /* padding: 0.6rem; */
+    /* height: 10vh; */
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.priceColumn{
+    font-size: 16px;
+    /* padding: 0.6rem; */
+    /* height: 10vh; */
+    padding: 1rem 0.5rem;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}

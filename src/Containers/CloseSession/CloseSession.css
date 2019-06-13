@@ -1,0 +1,6 @@
+.back-arrow:hover{
+    transform: scale(1.4);
+}
+.back-arrow{
+    transition: all 0.4s;
+}

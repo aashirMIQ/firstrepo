@@ -1,0 +1,9 @@
+.addCutomerBtn{
+    background: #8dc63f;
+}
+.addCutomerBtn:hover{
+    background: #96dc37;
+}
+.close-btn:hover{
+    background-color: #f8f8f8 !important;
+}

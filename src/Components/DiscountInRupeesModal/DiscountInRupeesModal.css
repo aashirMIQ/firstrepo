@@ -1,0 +1,10 @@
+.discount-btn:hover{
+    background: #9e99ff !important;
+}
+.discountPopInput{
+
+}
+.discountPopInput:hover, .discountPopInput:focus{
+    outline: none;
+    box-shadow: none;
+}

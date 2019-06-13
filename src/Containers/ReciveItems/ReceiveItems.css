@@ -1,0 +1,15 @@
+*::-webkit-input-placeholder {
+    color: #d1d3d4;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #d1d3d4;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #d1d3d4;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #d1d3d4;
+}

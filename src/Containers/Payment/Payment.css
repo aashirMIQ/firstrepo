@@ -1,0 +1,53 @@
+.payment-footer-main {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 0.4fr 0.3fr 0.3fr;
+  }
+
+
+  .payment-footer-main-col-2 {
+    display: grid;
+    grid-template-columns: 0.4fr 0.2fr 0.2fr 0.2fr;
+  }
+  
+  .payment-footer-main-col-2 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .payment-footer-main-col-2:nth-child(0) {
+    display: flex;
+  }
+  
+  .payment-footer-main-col-2-1 > div {
+    font-size: 7pt;
+    color: #300f38;
+    font-weight: bold;
+    padding-left: 6px;
+  }
+  .payment-footer-main-col-2-1 > div span {
+    font-size: 12pt;
+    line-height: 1;
+    font-weight: bold;
+    /* padding-left: 6px;  */
+  }
+
+  .back-arrow{
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .back-arrow:hover{
+    transform: scale(2);
+
+  }
+  .back-btn.paymentScreenBtn{
+  }
+  .back-btn.paymentScreenBtn:hover {
+    /* border-bottom: 2px solid rgb(88, 89, 91) !important; */
+}
+.calBtn1:hover{
+  background: #f1f2f2 !important;
+  transition: all 5ms;
+}
