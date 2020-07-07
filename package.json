@@ -81,7 +81,7 @@
   },
   "devDependencies": {
     "concurrently": "3.5.1",
-    "electron": "2.0.2",
+    "electron": "9.1.0",
     "electron-builder": "^20.38.5",
     "prettier": "^1.4.4",
     "wait-on": "2.1.0"
